@@ -66,3 +66,275 @@ button {
 .logo span {
   color: #176b56;
 }
+
+.topbar nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  color: #65716c;
+}
+.job-actions {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.resume-picker {
+  min-width: 220px;
+  margin: 0;
+}
+.resume-picker input {
+  max-width: 270px;
+  padding: 9px;
+  font-size: 12px;
+}
+.applicant,
+.applicant-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 10px 0;
+}
+.applicant-card p {
+  margin: 5px 0;
+  color: #718078;
+}
+.hero {
+  max-width: 1120px;
+  margin: auto;
+  padding: 100px 30px 92px;
+}
+.tag {
+  font-size: 12px;
+  color: #176b56;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+h1,
+h2,
+h3 {
+  font-family: Manrope, sans-serif;
+}
+h1 {
+  font-size: clamp(40px, 6vw, 68px);
+  line-height: 1.06;
+  letter-spacing: -2px;
+  margin: 0 0 18px;
+}
+.intro {
+  font-size: 18px;
+  color: #68746e;
+  max-width: 460px;
+  line-height: 1.6;
+}
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 34px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 30px;
+  border-top: 1px solid #e2e7e2;
+}
+.steps article b {
+  color: #74a58f;
+}
+.steps h3 {
+  margin: 14px 0 6px;
+}
+.steps p,
+.content > p {
+  color: #748079;
+}
+.account-wrap {
+  min-height: calc(100vh - 140px);
+  display: grid;
+  place-items: center;
+  padding: 40px 20px;
+}
+.panel {
+  background: white;
+  border: 1px solid #e8ece7;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 5px 20px #18271b08;
+}
+.account {
+  width: min(100%, 430px);
+}
+.account h2 {
+  margin: 10px 0 22px;
+  font-size: 28px;
+}
+label {
+  display: grid;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #46534d;
+  margin: 14px 0;
+}
+input,
+textarea,
+select {
+  border: 1px solid #dce3dc;
+  border-radius: 7px;
+  padding: 12px;
+  color: #26332d;
+  background: white;
+  outline: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #36866b;
+}
+.wide {
+  width: 100%;
+  margin-top: 8px;
+}
+.switch {
+  text-align: center;
+  color: #78827d;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.content {
+  max-width: 1040px;
+  margin: 58px auto;
+  padding: 0 26px;
+  min-height: 70vh;
+}
+.page-title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.page-title h1,
+.content h1 {
+  font-size: 42px;
+  letter-spacing: -1px;
+}
+.search {
+  width: 260px;
+}
+
+.job-list {
+  display: grid;
+  gap: 14px;
+}
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.job h2 {
+  font-size: 22px;
+  margin: 12px 0 4px;
+}
+.job p {
+  color: #718078;
+  margin: 5px 0;
+}
+.job .details {
+  color: #45524b;
+  max-width: 700px;
+  line-height: 1.55;
+  margin-top: 14px;
+}
+.post-form {
+  margin: 24px 0 34px;
+}
+.post-form h2 {
+  margin-top: 0;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.post-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+.section-head {
+  font-size: 23px;
+}
+.status {
+  display: inline-block;
+  background: #fff2d7;
+  color: #8c6417;
+  padding: 6px 9px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.status.ok {
+  background: #e1f2e7;
+  color: #2c724c;
+}
+.message {
+  color: #246748;
+  margin: 12px 0;
+}
+.message.error {
+  color: #b33e32;
+}
+.form-hint {
+  color: #748079;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 8px 0 14px;
+}
+.back {
+  margin-bottom: 24px;
+}
+footer {
+  text-align: center;
+  color: #9aa39e;
+  padding: 26px;
+  border-top: 1px solid #e8ebe7;
+  font-size: 13px;
+}
+@media (max-width: 700px) {
+  .hero {
+    padding-top: 68px;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .page-title {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .search {
+    width: 100%;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .job {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 36px;
+    padding: 0 18px;
+  }
+  .topbar {
+    padding: 0 18px;
+  }
+}
