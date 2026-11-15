@@ -55,8 +55,5 @@ For the local admin demo, register with `admin@hirefast.com`. The app assigns th
 - `server/routes` contains the API actions.
 - `server/middleware` checks login tokens.
 
-For a beginner-friendly explanation of every source file and how they connect, read [CODE-GUIDE.md](CODE-GUIDE.md).
 
-For hosting on GitHub Pages with the API on Render and MongoDB Atlas, follow [DEPLOY.md](DEPLOY.md).
 
-This is a college project starting point. Add validation and stronger admin setup before using it for real users.
